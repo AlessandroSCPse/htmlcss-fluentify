@@ -1,0 +1,171 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+/* COMMON */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #0b325a;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.button {
+    display: inline-block;
+    background-color: #7cbb02;
+    border-radius: 7px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.bg-grey {
+    background-color: lightgrey;
+}
+.text-centered {
+    text-align: center;
+}
+.main-text {
+    font-size: 16px;
+    color: grey;
+    line-height: 21px;
+}
+
+/* Clearfix and cols generiche */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.col {
+    float: left;
+}
+
+/* 3 columns layout */
+.three-col .col {
+    width: 30%;
+}
+.three-col .col:nth-child(2) {
+    margin: 0 5%;
+}
+
+/* 2 columns layout */
+.two-col .col {
+    width: 50%;
+}
+
+/* HEADER */
+header {
+    height: 550px;
+    background-color: #0b325a;
+    background-image: url("../img/background-header.png");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 108% 110%;
+    padding-top: 20px;
+}
+
+header .logo {
+    width: 10%;
+}
+header .menu-center {
+    width: 50%;
+    padding-left: 30px;
+}
+header .menu-right {
+    width: 40%;
+    text-align: right;
+}
+
+/* Menu */
+header .menu {
+    list-style-type: none;
+}
+header .menu li {
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 60px;
+}
+header .menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+header .menu .login {
+    border-radius: 5px;
+    padding: 8px 25px;
+    border: 1px solid white;
+}
+nav .button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline;
+}
+
+/* Teaser */
+.teaser {
+    margin-top: 13%;
+    width: 50%;
+}
+.teaser h1 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* MAIN */
+section {
+    padding: 40px 0;
+}
+.section-divider {
+    width: 95%;
+    margin: auto;
+}
+
+main h2 {
+    margin-bottom: 10px;
+}
+
+/* Info data */
+#info-data .col img {
+    height: 150px;
+}
+#info-data .col h3 {
+    color: #7cbb02;
+    font-size: 28px;
+    margin: 20px 0;
+}
+#info-data .col .divider {
+    width: 15%;
+    margin: auto;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+/* Discover */
+#discover .col {
+    padding: 20px;
+}
+#discover .col h2 {
+    font-size: 30px;
+}
+
+/* FOOTER */
+footer {
+    padding: 50px 0;
+}
